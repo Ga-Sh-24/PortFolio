@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garima_Shrivastava</title>
+    <script src="https://kit.fontawesome.com/0f4075b95b.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#connect">Connect With Me</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Garima Shrivastava</h1>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/garimashri24/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Ga-Sh-24" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/_garima_sh24/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1wpj-BcDGQkpvWKQLrjJuVWS5uyHjq2a0/view?usp=sharing" class="btn" target="_blank">View Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/home.jpeg" alt="" height="400" style="border-radius: 50%;">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/abtpic.jpeg" alt="" height="350" style="border-radius: 50%;">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading" style="color: white;">About <span style="color: var(--main-color);">Me</span></h2>
+            <p style="font-size: 2rem; margin-bottom: 15px;">Motivated and enthusiastic student seeking an
+                opportunity to apply theoretical knowledge, develop
+                analytical skills and gain practical experience. Eager to
+                learn from experienced professionals and tackle real-world challenges, fostering professional growth.
+                </p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 style="font-size: 6rem; color: rgb(42, 41, 41);" class="heading"><span id="full">Ski</span><span style="color: var(--main-color);">lls</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <i class='bx bx-code-alt'></i>
+                <h3 style="font-size: 2.6rem;">Web Development</h3>
+                <!-- <p>Proficient in front-end frameworks such as HTML, CSS, JavaScript, and Bootstrap to create visually appealing and interactive websites. Skilled in back-end frameworks like Node.js and Express.js for building robust and scalable server-side applications.</p> -->
+                <ul>
+                    <li>Frontend Frameworks: HTML, CSS, JavaScript, Bootstrap</li>
+                    <li>Backend Frameworks: Node Js, Express Js</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bx-network-chart'></i>
+                <h3 style="font-size: 2.4rem;">Data Structures And Algorithms</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio earum explicabo </p> -->
+                <ul>
+                    <li>Strong understanding of fundamental data structures.</li>
+                    <li>Skilled in implementing efficient algorithms and optimizing performance.</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bxs-data' ></i>
+                <h3 style="font-size: 2.6rem;">Database Management</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio earum explicabo molestias </p> -->
+                <ul>
+                    <li>MySQL, MongoDB, Microsoft Access, OpenOffice Base.</li>
+                    <li> Experienced in writing complex queries and ensuring data integrity.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading" style="font-size: 6rem;">Key <span style="color: var(--main-color);">Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./images/investedge.jpg" alt="">
+                <div class="project-layer">
+                    <h4>InvestEdge</h4>
+                    <p>User-friendly website supporting traders and investors to make profitable trades at optimal prices.</p>
+                    <a href="https://github.com/Ga-Sh-24/InvestEdge.git" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/tourism.webp" alt="">
+                <div class="project-layer">
+                    <h4>MyTravelSavvy</h4>
+                    <p>Comprehensive travel agency website, offering seamless travel planning and personalized itineraries.</p>
+                    <a href="https://github.com/Ga-Sh-24/MyTravelSavvy.git" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="connect" id="connect">
+        <h2 class="heading" style="font-size: 6rem;">Connect <span style="color: var(--main-color);">With Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email Address" name="email">
+            </div>
+
+            <div class="input-box">
+                <input type="phone" placeholder="Contact Number" name="contact">
+                <input type="text" placeholder="Email Subject" name="subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="thing"></textarea>
+            <input type="submit" value="Send Message" id="hhh">
+        </form>
+        <div class="final">I will connect to you shortly...<i class="fa-regular fa-circle-check right"></i></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By Garima Shrivastava | All Rights Reserved.</p>
+        </div>
+
+        <div class="icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
